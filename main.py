@@ -19,9 +19,9 @@ def run_bot():
         else:
             to_tweet = template_tweet(url)
             tweet(to_tweet)
-            time.sleep(86400)
 
 if __name__ == '__main__':
     while True:
         run_bot()
+        time.sleep(86400)
 
